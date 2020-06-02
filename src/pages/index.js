@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import Gallery from '../components/Gallery'
+
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
@@ -19,9 +19,9 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
+              Stanislav Kutlin 
               <br />
-              magna sed accumsan arcu neque.
+              My Personal Blog on Gatsbyjs and Notion
             </h2>
           </header>
           <p>
@@ -42,14 +42,19 @@ const HomeIndex = () => {
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
+          <h2>Recent Sharing</h2>
 
-          <Gallery />
+          
 
           <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Full Portfolio
+              <a href="blog" className="button">
+                All Articles
+              </a>
+            </li>
+            <li>
+              <a href="subscribe" className="button">
+                All Newsletters
               </a>
             </li>
           </ul>
@@ -106,9 +111,9 @@ const HomeIndex = () => {
                   </h3>
                   1234 Somewhere Rd.
                   <br />
-                  Nashville, TN 00000
+                  Moscow
                   <br />
-                  United States
+                  Russia
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">

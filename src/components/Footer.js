@@ -26,9 +26,9 @@ const Footer = () => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Gatsby Starter Strata</li>
+        <li>&copy; dothis.tech 2020</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Design: <a href="https://dothis.tech">dothis.tech</a>
         </li>
       </ul>
     </div>
